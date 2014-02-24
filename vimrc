@@ -17,10 +17,10 @@ Bundle 'kevinw/pyflakes-vim'
 Bundle 'vim-scripts/indentpython.vim'
 Bundle 'Crapworks/python_fn.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'Valloric/YouCompleteMe'
 " vim-scripts repos
 Bundle 'Smart-Home-Key'
 Bundle 'snipMate'
-Bundle 'AutoComplPop'
 
 set incsearch
 set hlsearch
@@ -28,6 +28,9 @@ set hlsearch
 nnoremap <Space> :nohlsearch<CR>
 " TAB key to open/close folds.
 nnoremap <tab> za
+
+" For YouCompleteMe config
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
