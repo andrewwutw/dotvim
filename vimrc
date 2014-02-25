@@ -19,6 +19,7 @@ Bundle 'Crapworks/python_fn.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'jiangmiao/auto-pairs'
+Bundle 'tpope/vim-surround'
 " vim-scripts repos
 Bundle 'Smart-Home-Key'
 Bundle 'snipMate'
