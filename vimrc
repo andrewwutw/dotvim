@@ -21,6 +21,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'tpope/vim-surround'
 " vim-scripts repos
+Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
 Bundle 'snipMate'
 
