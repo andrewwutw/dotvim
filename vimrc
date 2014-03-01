@@ -20,6 +20,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'tpope/vim-surround'
+Bundle 'kien/ctrlp.vim'
 " vim-scripts repos
 Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
@@ -34,6 +35,9 @@ nnoremap <tab> za
 
 " For YouCompleteMe config
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+
+" For CtrlP config
+let g:ctrlp_map = '<c-p>'
 
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
