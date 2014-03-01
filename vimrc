@@ -28,6 +28,7 @@ Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
 Bundle 'snipMate'
+Bundle 'ack.vim'
 
 set incsearch
 set hlsearch
