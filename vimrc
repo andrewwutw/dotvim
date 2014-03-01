@@ -23,6 +23,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'henrik/vim-indexed-search'
+Bundle 'bronson/vim-trailing-whitespace'
 " vim-scripts repos
 Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
