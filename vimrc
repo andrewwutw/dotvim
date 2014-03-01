@@ -71,9 +71,6 @@ set hidden
 " set visual bell : no beep
 set vb
 
-" set fold mode = syntax
-set foldmethod=syntax
-
 filetype plugin on
 filetype indent on
 
