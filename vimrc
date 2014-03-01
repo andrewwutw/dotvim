@@ -21,6 +21,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
+Bundle 'jeetsukumaran/vim-buffergator'
 " vim-scripts repos
 Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
@@ -38,6 +39,9 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extr
 
 " For CtrlP config
 let g:ctrlp_map = '<c-p>'
+
+" For buffergator config
+let g:buffergator_sort_regime = 'mru'
 
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
