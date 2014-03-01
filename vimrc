@@ -22,6 +22,7 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'jeetsukumaran/vim-buffergator'
+Bundle 'henrik/vim-indexed-search'
 " vim-scripts repos
 Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
@@ -42,6 +43,10 @@ let g:ctrlp_map = '<c-p>'
 
 " For buffergator config
 let g:buffergator_sort_regime = 'mru'
+
+" For vim-indexed-search
+let g:indexed_search_shortmess=1
+let g:indexed_search_show_index_mappings=0
 
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
