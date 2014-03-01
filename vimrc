@@ -29,6 +29,7 @@ Bundle 'AutoComplPop'
 Bundle 'Smart-Home-Key'
 Bundle 'snipMate'
 Bundle 'ack.vim'
+Bundle 'matchit.zip'
 
 set incsearch
 set hlsearch
