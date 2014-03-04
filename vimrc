@@ -94,15 +94,6 @@ set imsearch=0
 
 set suffixes-=.h
 
-let NERDTreeIgnore=['\.EXE', '\.pyc$', '\.pyo', '\.pyd', '\.o', '\.bin', '\.rom', '\.so', '\~$']
-let Tlist_Use_Right_Window = 1
-
-" for minibufexpl :
-"let g:Tb_MapWindowNavVim = 1
-"let g:Tb_MapCTabSwitchBufs = 1
-"let g:Tb_MapCTabSwitchWindows = 1
-"let g:Tb_ModSelTarget = 1
-
 if has("win32")
   let Tlist_Ctags_Cmd = '\ctags\ctags.exe'
 endif
