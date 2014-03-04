@@ -11,4 +11,4 @@ setlocal expandtab
 setlocal smartindent
 
 " set folding
-setlocal foldmethod=indent
+"setlocal foldmethod=indent
