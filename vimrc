@@ -31,6 +31,7 @@ Bundle 'Smart-Home-Key'
 Bundle 'snipMate'
 Bundle 'ack.vim'
 Bundle 'matchit.zip'
+Bundle 'indent-motion'
 
 set incsearch
 set hlsearch
