@@ -67,6 +67,11 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 " No blacklist for YCM, let YCM support all file types.
 let g:ycm_filetype_blacklist = {}
 
+" keybind : from http://blog.jobbole.com/58978/
+nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 " For CtrlP config
 let g:ctrlp_map = '<c-p>'
 set wildignore+=*.pyc,*.o,*.obj,*.sys,*.dll
