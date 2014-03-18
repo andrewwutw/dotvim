@@ -45,6 +45,7 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extr
 
 " For CtrlP config
 let g:ctrlp_map = '<c-p>'
+set wildignore+=*.pyc,*.o,*.obj,*.sys,*.dll
 
 " For buffergator config
 let g:buffergator_sort_regime = 'mru'
