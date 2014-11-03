@@ -1,37 +1,54 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
 
-" My Bundles here:
+" My Plugins here:
 "
 " original repos on github
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'kevinw/pyflakes-vim'
-Bundle 'vim-scripts/indentpython.vim'
-Bundle 'Crapworks/python_fn.vim'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'tpope/vim-surround'
-Bundle 'kien/ctrlp.vim'
-Bundle 'jeetsukumaran/vim-buffergator'
-Bundle 'henrik/vim-indexed-search'
-Bundle 'bronson/vim-trailing-whitespace'
-Bundle 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'kevinw/pyflakes-vim'
+Plugin 'vim-scripts/indentpython.vim'
+Plugin 'Crapworks/python_fn.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-surround'
+Plugin 'kien/ctrlp.vim'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'henrik/vim-indexed-search'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'tpope/vim-fugitive'
 " vim-scripts repos
-Bundle 'AutoComplPop'
-Bundle 'Smart-Home-Key'
-Bundle 'snipMate'
-Bundle 'ack.vim'
-Bundle 'matchit.zip'
-Bundle 'indent-motion'
+Plugin 'AutoComplPop'
+Plugin 'Smart-Home-Key'
+Plugin 'snipMate'
+Plugin 'ack.vim'
+Plugin 'matchit.zip'
+Plugin 'indent-motion'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 
 set incsearch
 set hlsearch
