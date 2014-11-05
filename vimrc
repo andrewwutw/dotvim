@@ -27,6 +27,7 @@ Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'henrik/vim-indexed-search'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
+Plugin 'editorconfig/editorconfig-vim'
 " vim-scripts repos
 Plugin 'AutoComplPop'
 Plugin 'Smart-Home-Key'
@@ -89,11 +90,6 @@ set history=200
 set hidden
 " set visual bell : no beep
 set vb
-
-" setting modeline for coreboot
-" see :
-" http://stackoverflow.com/questions/456792/vim-apply-settings-on-files-in-directory#456846
-autocmd BufNewFile,BufRead ~/coreboot/* set noexpandtab shiftwidth=8
 
 filetype plugin on
 filetype indent on
