@@ -58,7 +58,7 @@ nnoremap <Space> :nohlsearch<CR>
 nnoremap <tab> za
 
 " For YouCompleteMe config
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 " For CtrlP config
 let g:ctrlp_map = '<c-p>'
