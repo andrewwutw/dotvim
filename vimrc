@@ -28,6 +28,7 @@ Plugin 'henrik/vim-indexed-search'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'airblade/vim-gitgutter'
 " vim-scripts repos
 Plugin 'Smart-Home-Key'
 Plugin 'snipMate'
