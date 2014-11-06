@@ -29,7 +29,6 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
 Plugin 'editorconfig/editorconfig-vim'
 " vim-scripts repos
-Plugin 'AutoComplPop'
 Plugin 'Smart-Home-Key'
 Plugin 'snipMate'
 Plugin 'ack.vim'
@@ -59,7 +58,10 @@ nnoremap <Space> :nohlsearch<CR>
 nnoremap <tab> za
 
 " For YouCompleteMe config
+" Use built-in YCM config file.
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+" No blacklist for YCM, let YCM support all file types.
+let g:ycm_filetype_blacklist = {}
 
 " For CtrlP config
 let g:ctrlp_map = '<c-p>'
