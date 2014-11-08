@@ -76,6 +76,10 @@ let g:buffergator_sort_regime = 'mru'
 let g:indexed_search_shortmess=1
 let g:indexed_search_show_index_mappings=0
 
+" For vim-gitgutter
+nmap ]h <Plug>GitGutterNextHunk
+nmap [h <Plug>GitGutterPrevHunk
+
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
 imap <silent> <Home> <C-O>:SmartHomeKey<CR>
