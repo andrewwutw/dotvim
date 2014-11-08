@@ -13,7 +13,8 @@ set t_vb=
 
 " colorscheme darkblue
 
-set guifont=Inconsolata:h18
+set guifont=Inconsolata\ for\ Powerline:h18
+let g:airline_powerline_fonts = 1
 " Line/columns for MacBook Pro full window mode.
 set lines=39
 set columns=158

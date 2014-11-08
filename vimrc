@@ -29,6 +29,7 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'bling/vim-airline'
 " vim-scripts repos
 Plugin 'Smart-Home-Key'
 Plugin 'snipMate'
@@ -84,7 +85,7 @@ set smartindent
 set shiftwidth=2
 set expandtab
 set showtabline=2
-set ruler
+set laststatus=2
 set nocompatible
 set showcmd
 set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
