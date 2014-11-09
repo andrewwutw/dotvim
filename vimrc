@@ -80,6 +80,13 @@ let g:indexed_search_show_index_mappings=0
 nmap ]h <Plug>GitGutterNextHunk
 nmap [h <Plug>GitGutterPrevHunk
 
+" For vim-airline
+" In text console mode + solarized theme, Airline looks bad.
+" Fix it.
+if !has("gui_running")
+  let g:airline_theme='dark'
+endif
+
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
 imap <silent> <Home> <C-O>:SmartHomeKey<CR>
