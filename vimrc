@@ -24,7 +24,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'henrik/vim-indexed-search'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-fugitive'
 Plugin 'editorconfig/editorconfig-vim'
@@ -32,6 +31,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/unite.vim'
+Plugin 'haya14busa/incsearch.vim'
 " vim-scripts repos
 Plugin 'Smart-Home-Key'
 Plugin 'snipMate'
@@ -57,7 +57,7 @@ filetype plugin indent on    " required
 set incsearch
 set hlsearch
 "nnoremap <CR> :nohlsearch<CR>
-nnoremap <Space> :nohlsearch<CR>
+"nnoremap <Space> :nohlsearch<CR>
 " TAB key to open/close folds.
 nnoremap <tab> za
 
@@ -94,6 +94,19 @@ endif
 let g:unite_source_grep_command='ack'
 let g:unite_source_grep_default_opts='--noheading --nocolor --nopager'
 let g:unite_source_grep_recursive_opt=''
+
+" For incsearch.vim
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
+let g:incsearch#auto_nohlsearch = 1
+map n  <Plug>(incsearch-nohl-n)
+map N  <Plug>(incsearch-nohl-N)
+map *  <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
 
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
