@@ -30,6 +30,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'Shougo/unite.vim'
 " vim-scripts repos
 Plugin 'Smart-Home-Key'
 Plugin 'snipMate'
@@ -86,6 +88,12 @@ nmap [h <Plug>GitGutterPrevHunk
 if !has("gui_running")
   let g:airline_theme='dark'
 endif
+
+" For unite.vim
+" Set to use ack to find.
+let g:unite_source_grep_command='ack'
+let g:unite_source_grep_default_opts='--noheading --nocolor --nopager'
+let g:unite_source_grep_recursive_opt=''
 
 " For Smart-Home-Key
 map <silent> <Home> :SmartHomeKey <CR>
