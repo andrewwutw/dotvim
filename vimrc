@@ -57,7 +57,7 @@ filetype plugin indent on    " required
 set incsearch
 set hlsearch
 "nnoremap <CR> :nohlsearch<CR>
-"nnoremap <Space> :nohlsearch<CR>
+nnoremap <Space> :nohlsearch<CR>
 " TAB key to open/close folds.
 nnoremap <tab> za
 
@@ -101,7 +101,7 @@ map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
 map g/ <Plug>(incsearch-stay)
 
-let g:incsearch#auto_nohlsearch = 1
+"let g:incsearch#auto_nohlsearch = 1
 map n  <Plug>(incsearch-nohl-n)
 map N  <Plug>(incsearch-nohl-N)
 map *  <Plug>(incsearch-nohl-*)
