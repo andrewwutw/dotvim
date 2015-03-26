@@ -32,6 +32,7 @@ Plugin 'bling/vim-airline'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/unite.vim'
 Plugin 'haya14busa/incsearch.vim'
+Plugin 'jeetsukumaran/vim-indentwise'
 " vim-scripts repos
 Plugin 'Smart-Home-Key'
 Plugin 'snipMate'
