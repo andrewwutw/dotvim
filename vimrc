@@ -1,6 +1,20 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" For MacVim, add path for MacPorts.
+if has("gui_macvim")
+  let $PATH .= ':/opt/local/bin:/opt/local/sbin'
+endif
+
+" Set python checkers for syntastic.
+let g:syntastic_python_checkers = ['pyflakes', 'python']
+
+let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_aggregate_errors = 1
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -15,7 +29,7 @@ Plugin 'gmarik/Vundle.vim'
 " original repos on github
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'kevinw/pyflakes-vim'
+Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'Crapworks/python_fn.vim'
 Plugin 'altercation/vim-colors-solarized'
