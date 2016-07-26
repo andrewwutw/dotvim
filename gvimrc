@@ -20,3 +20,5 @@ set lines=39
 set columns=158
 set number
 
+" For MacVim + auto-pairs + Chinese IME to work correctly.
+set imdisable
