@@ -95,8 +95,8 @@ set wildignore+=*.pyc,*.o,*.obj,*.sys,*.dll
 let g:buffergator_sort_regime = 'mru'
 
 " For vim-gitgutter
-nmap ]h <Plug>GitGutterNextHunk
-nmap [h <Plug>GitGutterPrevHunk
+nmap ]h <Plug>(GitGutterNextHunk)
+nmap [h <Plug>(GitGutterPrevHunk)
 
 " For vim-airline
 " In text console mode + solarized theme, Airline looks bad.
