@@ -152,7 +152,7 @@ syntax on
 
 set background=dark
 "set background=light
-colorscheme solarized
+:silent! colorscheme solarized
 
 set noimdisable
 set iminsert=0
